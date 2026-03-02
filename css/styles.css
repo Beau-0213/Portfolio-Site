@@ -1,6 +1,6 @@
 	/*
 	 Author: Beau Sweitzer
-	Date: 9/21/25
+	Date: 3/2/26
 	File Name: Style.css
 	*/
 
@@ -105,12 +105,14 @@
 		color: #815491;
 		font-family: Roboto, sans-serif;
 		font-weight: 900;
+		font-size: 2.25rem;
 	}
 
 	h2 {
 		color: #815491;
 		font-family: roboto, sans-serif;
 		font-weight: 700;
+		font-size: 1.75rem;
 	}
 
 	h3 {
@@ -118,6 +120,7 @@
 		font-family: Roboto, sans-serif;
 		font-weight: 500;
 		margin-bottom: 5px;
+		font-size: 1.25;
 	}
 
 	p {
@@ -126,6 +129,8 @@
 		color: #000000;
 		text-decoration: none;
 		text-indent: 2em;
+		font-size: 1rem;
+		max-width: 65ch;
 		}
 	
 	.no-indent {
@@ -254,10 +259,6 @@
 		width: 600px;
 		height: 600px;
 		max-width: 95%;
-	}
-
-	.shadow {
-		
 	}
 
 	#form {

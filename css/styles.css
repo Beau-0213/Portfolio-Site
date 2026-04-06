@@ -293,9 +293,27 @@
 		margin: 1em auto;
 		text-shadow: 5px 5px 5px #b3b3b3;
 	}
+
+	.video {
+		position: relative;
+		width: 100%;
+		max-width: 800px;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		margin: 40px auto;
+	}
+
+	.video iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 	
 	#seagull-video {
-		max-width: 400px;
+		max-width: 300px;
 	}
 	
 	/* Style rules for form elements */

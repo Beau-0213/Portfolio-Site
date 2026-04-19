@@ -1,0 +1,11 @@
+FOOTER:
+    ADD Linkedin
+    ADD phone
+    ADD Email
+
+CONTACT PAGE:
+    ADD Linkedin
+
+GENERAL:
+    fORMAT text to be centered not left centered
+    RECORD gpu video again if i can still access the lab on TESTOUT

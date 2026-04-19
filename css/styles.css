@@ -366,11 +366,19 @@
 		padding: 0 1em;
 	}
 
+	.icon {
+		max-width: 32px;
+		height: auto;
+		margin: 0 8px;
+		display: inline;
+	}
+
 	footer p a {
 		color: #815491;
 		text-decoration: none;
 		line-height: 200%;
 	}
+
 
 	/* Media query for Tablet viewport */
 	@media screen and (min-width: 730px), print {

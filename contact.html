@@ -58,62 +58,51 @@
 
 		</article>
 		
+		<div id="form" class="center">
+			
+			<br>
+			<h2>Complete this form to get in touch!</h2>
+		
+			<form class="form-div"
+				action="https://formspree.io/f/myklnwvb"
+				method="POST">
+
+				<label for="Name">Name:
+					<input type="text" name="Name" id="Name" required>
+				</label>				
+			
+				<label for="Email">Email:
+					<input type="email" name="Email" id="Email" placeholder="Example@example.com" required>
+				</label>
+			
+				<label for="Phone">Phone:
+					<input type="tel" name="Phone" id="Phone" placeholder="(xxx) xxx-xxxx" maxlength="9">
+				</label>
+			
+				<label for="Message">Message:
+					<textarea id="Message" name="Message" rows="7" cols="60" placeholder="type your message here" required></textarea>
+				</label>
+
+				<div class="grid">
+					<div class="box box-link no-underline">
+						<input type="reset" id="clear" value="Clear" class="button">
+					</div>
+
+					<div class="box box-link no-underline">
+						<input type="submit" id="submit" value="Submit" class="button">
+					</div>
+
+				</div>
+			
+			</form>
+		</div> 
+
 		<div class="center">		
 			<p>Visit me at: Kent state University of Ashtabula</p>
 			<iframe 
 			id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.464135166313!2d-80.83468792333939!3d41.88958787124049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8831f56aaa1ad501%3A0xfdcc8368e0f4e7e2!2sKent%20State%20University%20of%20Ashtabula!5e1!3m2!1sen!2sus!4v1759178383495!5m2!1sen!2sus" 
 			allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-		
-		<!-- form not used due to no back end support
-		<div id="form">
-			
-			<br>
-			<h2>Complete this form to get in touch!</h2>
-			<p class="warning">THIS FORM IS NON-FUNCTIONING. IT IS TO DEMONSTRATE CODING KNOWLEDGE, THERE IS NO BACK END SUPPORT.</p>
-		
-			<form class="form-grid"> 
-				
-				<fieldset class="grid">
-					<legend>Your Information</legend>
-						
-					<div class="box">
-						<label for="FName">First Name:</label>
-						<input type="text" name="FName" id="FName" required>
-					</div>
-					
-					<div class="box">
-						<label for="LName">Last Name:</label>
-						<input type="text" name="LName" id="LName" required>
-					</div>
-					
-					<div class="box">
-						<label for="Email">Email:</label>
-						<input type="email" name="Email" id="Email" placeholder="Example@example.com" required>
-					</div>
-					
-					<div class="box">
-						<label for="Phone">Phone:</label>
-						<input type="tel" name="Phone" id="Phone" placeholder="(xxx) xxx-xxxx" maxlength="9" required>
-					</div>
-					
-					<div class="box">
-						<label for="Extention">Extention:</label>
-						<input type="text" name="Extention" id="Extention">
-					</div>
-						
-				</fieldset>
-				
-				<fieldset>
-					<legend>Message</legend>
-					<textarea id="Message" name="Message" rows="7" placeholder="type your message here"></textarea>
-				</fieldset>
-				
-				<input type="submit" id="submit" value="Submit" class="button">
-			
-			</form>
-		</div> 
-		-->
 
 	</main>
 	

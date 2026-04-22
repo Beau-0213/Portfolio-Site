@@ -257,6 +257,7 @@
 		align-items: center; 
 		text-align: center;
 		padding: 1rem;
+		margin: auto;
 	}
 
 	.center-div {
@@ -272,25 +273,33 @@
 		height: 600px;
 		max-width: 95%;
 	}
-
-	#form {
-		margin-top: 2%;
-		background-color: #eee3f1;
-		padding: 2%;
-	}
 	
 	.button {
 		align-self: center;
 		font-weight: bold;
 		text-decoration: none;
-		color: #815491;
+		color: #ffffff;
+		background-color: #EEE3F1;
+		display: block;
+		width: 30%;
+		border: solid;
+		border-color:#EEE3F1;
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	.button-clear {
+		align-self: center;
+		font-weight: bold;
+		text-decoration: none;
+		color: #eee3f1;
+		background-color: #EEE3F1;
 		display: block;
 		width: 30%;
 		border: solid;
 		border-color: #815491;
 		border-radius: 20px;
 		text-align: center;
-		background-color: #eee3f1;
 	}
 	
 	#project-button {
@@ -343,6 +352,25 @@
 	}
 	
 	/* Style rules for form elements */
+
+	.form-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 20px;
+	}
+
+	#form {
+		margin-top: 2%;
+		background-color: #eee3f1;
+		padding: 2%;
+		max-width: 60%;
+		border-radius: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	fieldset, input, textarea {
 		margin-bottom: 2%;
 	}
@@ -379,6 +407,17 @@
 		display: block;
 		padding: 1%;
 		background-color: #815491;
+		font-size: 1em;
+		border-radius: 10px;
+	}
+
+	form #clear {
+		margin: 0 auto;
+		border: none;
+		display: block;
+		padding: 1%;
+		color: #815491;
+		background-color: #faf2fd;
 		font-size: 1em;
 		border-radius: 10px;
 	}

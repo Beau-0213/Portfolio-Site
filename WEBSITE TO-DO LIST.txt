@@ -1,8 +1,2 @@
-CONTACT PAGE:
-    ADD Linkedin
-
-ITIL PROJECT:
-    ADD itil project page and text
-
 GENERAL:
     RECORD gpu video again if i can still access the lab on TESTOUT

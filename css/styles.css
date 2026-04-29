@@ -374,6 +374,11 @@
 	fieldset, input, textarea {
 		margin-bottom: 2%;
 	}
+
+	input {
+		border-radius: 20px;
+		background-color: #fcf8fe;
+	}
 	
 	fieldset {
 		max-width: 95%;
@@ -388,6 +393,17 @@
 		display: inline-block;
 		padding-top: 1%;
 	}
+
+	.form-actions{
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	gap: 0.75rem;
+	width: 100%;
+	max-width: 600px;
+	margin-top: 0.5rem;
+	}
+
 	form .box {
 		Background: none;
 		border: none;
@@ -395,10 +411,13 @@
 		margin: 0;
 		text-align: left;
 		max-width: 95%;
+		flex: 1;
 	}
 	
 	textarea {
 		width: 95%;
+		border-radius: 20px;
+		background-color: #fcf8fe;
 	}
 	
 	form #submit {

@@ -1,6 +1,2 @@
-CONTACT PAGE:
-    ADD linkedin
-    ADD contact form
-
 GENERAL:
     RECORD gpu video again if i can still access the lab on TESTOUT

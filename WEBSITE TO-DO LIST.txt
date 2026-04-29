@@ -1,2 +1,6 @@
 GENERAL:
     RECORD gpu video again if i can still access the lab on TESTOUT
+
+html-project.html
+    fix audio element
+    fix video element
